@@ -1,10 +1,13 @@
-import Combo from "./coponents/Combo";
-
+import './App.css'
+import Login from "./components/login/Login"
 function App() {
   return (
-   <>
-   <Combo/>
-   </>
+    <>
+      <div className='All'>
+        <Login />
+      </div>
+    </>
   );
 }
+
 export default App;
